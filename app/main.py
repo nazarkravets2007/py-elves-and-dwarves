@@ -13,4 +13,3 @@ def elves_concert(elves: list[Elf]) -> int:
 
 def feast_of_the_dwarves(dwarves: list[Dwarf]) -> int:
     return sum(dwarf.rating + dwarf.strength for dwarf in dwarves)
-
